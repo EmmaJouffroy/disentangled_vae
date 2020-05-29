@@ -11,25 +11,23 @@ Finalement, pour un aperçu visuel, les notebook "vae_viz.ipynb" et "latent_spac
 Requis: Python 3.7+ | Linux, Mac OS X, Windows
 
 ```sh
-pip install virtualenv
+pip install pipenv
 ```
 Puis dans le dossier du projet:  
 
 ```sh
-source venv/bin/activate
+pipenv install
 ```
-Lancer cette commande activera l'environnement virtuel, dans lequel l'ensemble des paquets nécessaires au projet sont placés. 
-Si le venv n'est pas téléchargé (fichier trop volumineux), alors lancer la commande suivante : 
+Le pipfile permettra l'installation de toutes les dépendances nécessaires à l'utilisation du projet. Puis pour exécuter des commandes dans cet environnement virtuel:
 
 ```sh
-pip install -r requirements.txt
+pipenv shell
 ```
-
-Cela permet d'installer les paquets et les librairies dans les versions nécessaires. 
+Note: les jeux de données "dataset" et "vis_dataset" ne sont pas présents dans ce repos, par faute de taille. Se référer au repository "generator-quaternions" pour d'avantage d'informations.
 
 # Préparez-vous :
 
-Pour lancer le notebook principal se lance:
+Pour lancer le notebook une fois dans la commandes pipenv :
 ```sh
 jupyter notebook
 ```
