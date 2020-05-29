@@ -1,0 +1,14 @@
+__pycache__
+.ipynb_checkpoints
+vis_dataset
+dataset
+.vscode
+beta1
+beta102
+checkpoints
+logs
+variational_autoencoder3.png
+.DS_Store
+rotations_csv.csv
+dataframe_path_labels5.csv
+
