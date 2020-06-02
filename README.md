@@ -23,7 +23,7 @@ Le pipfile permettra l'installation de toutes les dépendances nécessaires à l
 ```sh
 pipenv shell
 ```
-Note: les jeux de données "dataset" et "vis_dataset" ne sont pas présents dans ce repos, par faute de taille. Se référer au repository "generator-quaternions" pour d'avantage d'informations.
+Note: les jeux de données "dataset" et "vis_dataset" ne sont pas présents dans ce repos, par faute de taille. Se référer au repository "generator-quaternions" pour d'avantage d'informations. Dans le cas où vous avez à votre disposition le jeu de données, l'ensemble des fichiers contenant les images doit être contenu dans un fichier global appelé "dataset", placé à la racine du dossier où se trouvent les jupyter notebooks.
 
 # Préparez-vous :
 
