@@ -5,7 +5,6 @@ dataset
 .vscode
 beta1
 beta102
-checkpoints
 logs
 variational_autoencoder3.png
 .DS_Store
